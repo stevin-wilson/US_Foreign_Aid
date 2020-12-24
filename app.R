@@ -45,10 +45,13 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
                                 round = TRUE)
         ), br(), br(),br(),br(),
         "Data Sources ", br(),
-        "US Foreign Aid : ", tags$a(href="https://explorer.usaid.gov/data", "Foreign Aid Explorer [U.S. Agency for International Development (USAID)]"),
+        "US Foreign Aid : ", tags$a(href="https://explorer.usaid.gov/data", "Foreign Aid Explorer [U.S. Agency for International Development]"),
         br(), 
         "Population : ", tags$a(href="https://ourworldindata.org/grapher/population", "Our World in Data"),
+        br(),br(),
+        "To report bugs, please open an issue at ", tags$a(href="https://github.com/stevin-wilson/US_Foreign_Aid/issues", "US Foreign Aid Visualization@Github")
         ),
+        
 
         # Show a plot of the generated distribution
         mainPanel( 

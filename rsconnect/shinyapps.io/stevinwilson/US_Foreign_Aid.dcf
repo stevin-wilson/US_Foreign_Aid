@@ -5,8 +5,8 @@ account: stevinwilson
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3427546
-bundleId: 4024207
+bundleId: 4024481
 url: https://stevinwilson.shinyapps.io/US_Foreign_Aid/
-when: 1608767121.24093
+when: 1608776796.66954
 asMultiple: FALSE
 asStatic: FALSE
